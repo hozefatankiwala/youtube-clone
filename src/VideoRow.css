@@ -1,0 +1,37 @@
+.videoRow{
+    display: flex;
+    font-family: 'Arial';
+    padding: 10px;
+}
+.videoRow > img {
+    height: 138px;
+    width: 246px;
+}
+.videoRow__text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    font-size: small;
+}
+.videoRow__text >p{
+    color: #606060;
+}
+.videoRow__channel{
+    display: flex;
+    padding-top: 30px;
+}
+.videoRow__channel > img{
+    height: 20px;
+    border-radius: 12px;
+}
+.videoRow__channel > p{
+    padding-left: 10px;
+    color: #606060;
+}
+.videoRow__description{
+    font-family: 'Arial';
+    padding-top: 10px;
+}
+.dot{
+    font-weight: bolder;
+}
